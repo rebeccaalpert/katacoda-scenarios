@@ -1,0 +1,31 @@
+{
+  "title": "Intro to PatternFly React components",
+  "description": "Practice using PatternFly 4 React components to recreate a design",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "code": "prepare.sh"
+    },
+    "steps": [
+      { "title": "Use layouts and components to create a page with cards",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": ["src/index.js"],
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Web Application", "port": 3000}
+    ],
+    "uilayout": "editor-iframe-split",
+    "uisettings": "html"
+  },
+  "backend": {
+    "imageid": "node",
+    "port": 3000
+  }
+}

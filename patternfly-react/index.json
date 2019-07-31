@@ -7,7 +7,7 @@
       "code": "prepare.sh"
     },
     "steps": [
-      { "title": "Use layouts and components to create a page with cards",
+      { "title": "Add a card",
         "text": "step1.md"
       }
     ],

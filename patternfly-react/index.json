@@ -4,18 +4,21 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "code": "prepare.sh"
+      "code": "env-init.sh"
     },
     "steps": [
       { "title": "Add a card",
         "text": "step1.md"
+      },
+      { "title": "Add content to your card",
+        "text": "step2.md"
       }
     ],
     "finish": {
       "text": "finish.md"
     }
   },
-  "files": ["src/index.js"],
+  "files": [],
   "environment": {
     "showdashboard": true,
     "dashboards": [

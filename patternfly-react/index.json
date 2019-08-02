@@ -1,23 +1,67 @@
 {
   "title": "Intro to PatternFly React components",
   "description": "Practice using PatternFly 4 React components to recreate a design",
+  "difficulty": "beginner",
+  "time": "20 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
       "code": "env-init.sh"
     },
     "steps": [
-      { "title": "Add a card",
+      { "title": "Introducing PatternFly React",
         "text": "step1.md"
       },
-      { "title": "Add content to your card",
+      { "title": "Add a card",
         "text": "step2.md"
+      },
+      { "title": "Add content to your card",
+        "text": "step3.md"
+      },
+      { "title": "Modify the header",
+        "text": "step4.md"
+      },
+      { "title": "Add footer content",
+        "text": "step5.md"
       }
     ],
+    "assets": {
+      "client": [
+        {
+          "file": "step1.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step2.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step3.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "empty_card.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {"file": "cardbody_card.png", "target": "~/tutorial/assets/images/", "chmod": "+r"},
+        {
+          "file": "step4.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step5.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step6.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step7.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        },
+        {
+          "file": "step8.png", "target": "~/tutorial/assets/images/", "chmod": "+r"
+        }
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
   },
+
   "files": [],
   "environment": {
     "showdashboard": true,
@@ -25,7 +69,9 @@
       {"name": "Web Application", "port": 3000}
     ],
     "uilayout": "editor-iframe-split",
-    "uisettings": "html"
+    "uisettings": "javascript",
+    "exclusionPatterns": ["._*", "package.json", "package-lock.json", "node_modules*", "public*", "serviceWorker*"],
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "node",
